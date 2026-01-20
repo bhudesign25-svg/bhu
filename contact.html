@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - BHU Engineering & Design Consultancy LLP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Oswald:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.jpg" alt="BHU Engineering & Design Consultancy LLP Logo" class="logo-img">
+                </a>
+            </div>
+
+            <nav class="desktop-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <div class="header-actions">
+                    <a href="booking.html" class="btn-pill">Let's Talk</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero/Content -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <h1 class="section-title mb-5 reveal">Get in Touch</h1>
+
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info reveal-left">
+                    <div class="info-group">
+                        <h3>Visit Us</h3>
+                        <p>RO 505, Confident Althena Rose,<br>Kalpana Road, Menamkulam,<br>Thiruvananthapuram, Kerala,
+                            India – 695301.</p>
+                    </div>
+                    <div class="info-group">
+                        <h3>Contact</h3>
+                        <p><a href="mailto:hello@evergreen.com">hello@evergreen.com</a></p>
+                        <p><a href="tel:+919876543210">+91 9876 543 210</a></p>
+                    </div>
+                    <div class="info-group">
+                        <h3>Follow</h3>
+                        <div class="social-links">
+                            <a href="#">Instagram</a>
+                            <a href="#">LinkedIn</a>
+                            <a href="#">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper reveal-right">
+                    <form class="bhu-form" action="https://formsubmit.co/bhu.spaces@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New Contact Message">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea name="message" rows="5" placeholder="How can we help?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-pill">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-video-container">
+            <video autoplay muted loop playsinline class="footer-video">
+                <source src="asset/bgved2.mp4" type="video/mp4">
+            </video>
+            <div class="footer-overlay"></div>
+        </div>
+        <div class="footer-content-wrapper">
+            <div class="footer-cta reveal">
+                <h2>Let's Build<br>Your Vision</h2>
+                <div class="footer-links">
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <a href="booking.html" class="btn-pill btn-footer">Get in Touch</a>
+            </div>
+            <div class="footer-brand reveal">
+                <h1>BHU SPACES</h1>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/bhu.spaces?igsh=YnZ4a3V3b3B2NDdu&utm_source=qr" target="_blank"
+                        class="social-icon" aria-label="Instagram">
+                        <img src="asset/img/insa.png" alt="Instagram">
+                    </a>
+                </div>
+                <span>BHU Engineering & Design Consultancy LLP</span>
+                <span>+91 94978 80021 | bhu.spaces@gmail.com</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
